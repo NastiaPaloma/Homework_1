@@ -1,14 +1,14 @@
 ﻿Console.WriteLine("Enter a positive integer!");
 int num = Convert.ToInt32(Console.ReadLine());
-int n = 1;
+int i = 1;
 
-while (n <= num)
+while (i <= num)
 {
-    if (n%2 == 0)
+     if ( i % 2 == 0)
     {
-       // Console.WriteLine("Число является чётным");
+     Console.WriteLine(i);
     }
-       n ++;
+           i ++;
 } 
   
 Console.WriteLine();
