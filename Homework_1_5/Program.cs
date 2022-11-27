@@ -15,4 +15,3 @@ else
 {
     Console.WriteLine($"The number has fewer than 3 digits, sorry.");
 }
-222222
